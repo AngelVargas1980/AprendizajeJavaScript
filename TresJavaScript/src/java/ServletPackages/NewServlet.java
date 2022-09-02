@@ -58,7 +58,7 @@ alumno=new Alumno(
             alumnosRegistrados= registroAlumno.getAlumnos();
 
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
+            out.println("<!doctype html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet MiServlet</title>");  
@@ -96,7 +96,7 @@ alumno=new Alumno(
             
                   
             
-            out.println("<h1>Servlet MiServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet NewServlet at " + request.getContextPath() + "</h1>");
             out.println("</tbody></table>");
             out.println("</div>");
             out.println("</form>");
@@ -117,6 +117,7 @@ alumno=new Alumno(
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+
         processRequest(request, response);
     }
 

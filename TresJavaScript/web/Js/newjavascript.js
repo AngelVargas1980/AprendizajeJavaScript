@@ -10,6 +10,7 @@ function lanzarMensaje(){
     alert('Tus datos fueron guardados');
 }
 
+alert('jajaja');
 
 
 
@@ -36,7 +37,26 @@ function enviarFormularioOpcion2(){
 }
 
 
+function enviarFormulario(){
+	let request = new XMLHttpRequest();
+request.open('POST', 'UrlServlet', true);
+request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 
+request.onreadystatechange = function() {
+  if (request.readyState == XMLHttpRequest.DONE) {
+    // Peticion terminada.
+    if (request.status == 200) {
+      // Todo salio bien
+      console.log(request.response);
+    } else {
+      console.log("Error en el envío " + request.response);
+    }
+  }
+}
+
+var formData = new FormData(document.getElementById('contact-form'));
+request.send(formData);
+}
 
 
 
