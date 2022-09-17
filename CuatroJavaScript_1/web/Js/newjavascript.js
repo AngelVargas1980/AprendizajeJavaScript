@@ -5,6 +5,23 @@
  **Autor Angel Vargas
  **/
 
+function crearElementosDelArray(){
+    let botones = document.createElement('button');
+    botones.setAttribute("value", "Click Aqui");
+}
+
+function eliminarElementosDelArray(){ 
+    
+	let container= document.getElementById("codigo");
+        let container= document.getElementById("nombre");
+        let container= document.getElementById("correo");
+        let container= document.getElementById("direccion");
+        let container= document.getElementById("opcion");
+   
+	container.remove();
+}
+
+
 
 function lanzarMensaje(){
     alert('Tus datos fueron guardados');
