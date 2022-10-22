@@ -1,0 +1,3 @@
+AngelVargas_Parcial2 		Si fuinciona  
+AngelVargas_Parcial2Cliente	Si funciona y en workbens funciona con sistemacliente table cliente
+2022-PrograI-AppWeb-b9...	Si funciona es del inge y en workbens funciona con universidad tabla alumno

@@ -1,0 +1,58 @@
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git pull origin master
+From https://github.com/Rosa-Ramirez/Repositorio_De_Prueba
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        AngelVargas.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git add .
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   AngelVargas.txt
+
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git commit -m "commit de Angel"
+[master 3a341c8] commit de Angel
+ 1 file changed, 1 insertion(+)
+ create mode 100644 AngelVargas.txt
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (master)
+$ git checkout -b AngelVargas
+Switched to a new branch 'AngelVargas'
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (AngelVargas)
+$ git push origin AngelVargas
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 106.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'AngelVargas' on GitHub by visiting:
+remote:      https://github.com/Rosa-Ramirez/Repositorio_De_Prueba/pull/new/Ange
+lVargas
+remote:
+To https://github.com/Rosa-Ramirez/Repositorio_De_Prueba.git
+ * [new branch]      AngelVargas -> AngelVargas
+
+Angel Vargas@DESKTOP-7RSQV38 MINGW64 ~/Downloads/AprendizajeJavaScriptGitHub/ProyectoProgramación/Repositorio_De_Prueba (AngelVargas)
+$
